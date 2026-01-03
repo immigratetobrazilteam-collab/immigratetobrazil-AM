@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    font-family: Open Sans, sans-serif;
+    background: #F9F9F9;
+    color: #2980B9;
+}
+
+h1, h2 {
+    font-family: Raleway, serif;
+    color: #16A085;
+}
+
+a {
+    color: #E74C3C;
+}
+
+section {
+    padding: 3rem;
+}
