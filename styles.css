@@ -1,11 +1,11 @@
 body {
     margin: 0;
-    font-family: Open Sans, sans-serif;
+    font-family: Open Sans;
     background: #F9F9F9;
     color: #2980B9;
 }
 h1, h2 {
-    font-family: Raleway, serif;
+    font-family: Raleway;
     color: #16A085;
 }
 a {
