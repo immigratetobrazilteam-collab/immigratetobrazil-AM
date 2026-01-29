@@ -1,80 +1,17 @@
-<header id="main-header" class="main-header" role="banner">
-  <style>
-    .main-header {
-      background: linear-gradient(to bottom, #228B22, rgba(45,157,94,0.95));
-      color: white;
-      padding: 30px 40px;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      box-shadow: 0 10px 40px rgba(0,0,0,0.2);
-      border-bottom: 1px solid rgba(255,255,255,0.1);
-    }
-    .header-container {
-      max-width: 1400px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .header-logo {
-      font-size: 1.5rem;
-      font-weight: 600;
-      color: white;
-      text-decoration: none;
-      display: flex;
-      gap: 12px;
-      align-items: center;
-    }
-    .logo-icon {
-      font-size: 2.2rem;
-    }
-    .nav-menu {
-      display: flex;
-      gap: 35px;
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    .nav-item a {
-      color: rgba(255,255,255,0.85);
-      text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 500;
-      position: relative;
-      transition: all 0.3s;
-    }
-    .nav-item a:hover {
-      color: white;
-    }
-    .nav-item a::after {
-      content: '';
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-      width: 0;
-      height: 2px;
-      background: white;
-      transition: width 0.3s;
-    }
-    .nav-item a:hover::after {
-      width: 100%;
-    }
-  </style>
-  <div class="header-container">
-    <a href="index.html" class="header-logo">
-      <span class="logo-icon">A</span>
-      <span>Amazonas</span>
-    </a>
-    <nav>
-      <ul class="nav-menu">
-        <li class="nav-item"><a href="index.html">Home</a></li>
-        <li class="nav-item"><a href="about.html">About</a></li>
-        <li class="nav-item"><a href="services.html">Services</a></li>
-        <li class="nav-item"><a href="faq.html">FAQ</a></li>
-        <li class="nav-item"><a href="blog.html">Blog</a></li>
-        <li class="nav-item"><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+<!-- Header: Complete Navigation -->
+<header>
+    <div class="container">
+        <a href="index.html" class="logo">
+            <strong>AM</strong>
+            <span>Amazonas</span>
+        </a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="about.html">About</a>
+            <a href="blog.html">Blog</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
 </header>
